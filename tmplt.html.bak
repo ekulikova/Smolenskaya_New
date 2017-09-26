@@ -3,6 +3,29 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Макет 2</title>
+		<style type="text/css">
+			.header{
+				width:100%;
+				background: #3366ff;
+			}
+			
+			.header_img{
+				width:100%;
+			}
+			
+			.name
+{
+	position:absolute;
+	width:100%;
+	top:55px;
+	text-align:center;
+}
+
+.name_img{
+	min-width:400px;
+	width:32%;
+}
+		</style>
 	</head>
 	<body>
 		<header>

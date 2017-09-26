@@ -1,0 +1,23 @@
+
+.header
+{
+	width:100%;
+	background: #3366ff;
+}
+			
+.header_img{
+	width:100%;
+}
+			
+.name
+{
+	position:absolute;
+	width:100%;
+	top:55px;
+	text-align:center;
+}
+
+.name_img{
+	min-width:400px;
+	width:32%;
+}
