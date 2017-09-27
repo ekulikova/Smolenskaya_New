@@ -21,3 +21,18 @@
 	min-width:400px;
 	width:32%;
 }
+
+.content{
+	float:left;
+	width:75%;
+}
+
+aside{
+	margin-left:76%;
+}
+
+footer{
+	display:block;
+	background: #3366ff url(../img/footer_uzor.gif) repeat-x;
+	height:64px;
+}

@@ -1,0 +1,37 @@
+
+.header
+{
+	width:100%;
+	background: #3366ff;
+}
+			
+.header_img{
+	width:100%;
+}
+			
+.name
+{
+	position:absolute;
+	width:100%;
+	top:55px;
+	text-align:center;
+}
+
+.name_img{
+	min-width:400px;
+	width:32%;
+}
+
+.content{
+	width:75%;
+}
+
+aside{
+	width:25%;
+}
+
+footer{
+	display:block;
+	background: #3366ff url(../img/footer_uzor.gif) repeat-x;
+	height:64px;
+}
