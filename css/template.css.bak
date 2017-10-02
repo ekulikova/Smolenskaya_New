@@ -22,12 +22,23 @@
 	width:32%;
 }
 
+.layout{
+	height:500px;
+	border-style: solid;
+border-width: 40px;
+-moz-border-image: url(../img/border.gif) 63 63 65 65 stretch;
+-webkit-border-image: url(../img/border.gif) 63 63 65 65 stretch;
+-o-border-image: url(../img/border.gif) 63 63 65 65 stretch;
+border-image: url(../img/border.gif) 63 63 63 63 stretch;
+}
+
 .content{
+	float:left;
 	width:75%;
 }
 
 aside{
-	width:25%;
+	margin-left:76%;
 }
 
 footer{

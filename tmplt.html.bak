@@ -2,32 +2,15 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!--[if lt IE 9]> 
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<![endif]-->
+		<link href="./css/template.css" rel="stylesheet">
 		<title>Макет 2</title>
-		<style type="text/css">
-			.header{
-				width:100%;
-				background: #3366ff;
-			}
-			
-			.header_img{
-				width:100%;
-			}
-			
-			.name
-{
-	position:absolute;
-	width:100%;
-	top:55px;
-	text-align:center;
-}
-
-.name_img{
-	min-width:400px;
-	width:32%;
-}
-		</style>
 	</head>
+	
 	<body>
+		
 		<header>
 			<div class="header">
 				<img class="header_img" src="./img/header.jpg"/>
@@ -36,6 +19,13 @@
 				<img class="name_img" src='./img/name.png' />
 			</div>
 		</header>
-		<div class="footer">Подвал</div>
+		
+		<div class="layout">
+			<div class="col1">Колонка 1</div>
+			<aside>aside</aside>
+		</div>
+		
+  		<footer></footer>
+  		
 	</body>
 </html>
