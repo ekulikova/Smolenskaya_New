@@ -1,4 +1,8 @@
 
+body{
+	margin:0px;	
+}
+
 .header
 {
 	width:100%;
@@ -25,20 +29,22 @@
 .layout{
 	height:500px;
 	border-style: solid;
-border-width: 40px;
--moz-border-image: url(../img/border.gif) 63 63 65 65 stretch;
--webkit-border-image: url(../img/border.gif) 63 63 65 65 stretch;
--o-border-image: url(../img/border.gif) 63 63 65 65 stretch;
-border-image: url(../img/border.gif) 63 63 63 63 stretch;
+	border-width: 61px;
+	-moz-border-image: url(../img/border.gif) 61 stretch;
+	-webkit-border-image: url(../img/border.gif) 61 stretch;
+	-o-border-image: url(../img/border.gif) 61 stretch;
+	border-image: url(../img/border.gif) 61 stretch;
 }
 
 .content{
 	float:left;
 	width:75%;
+	margin: -20px 0px -20px -20px;
 }
 
 aside{
 	margin-left:76%;
+	margin: -20px -20px -20px 0px;
 }
 
 footer{
