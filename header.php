@@ -5,27 +5,19 @@
 		<!--[if lt IE 9]> 
  			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
 		<![endif]-->
-		<link href="./css/template.css" rel="stylesheet">
 		<title>Макет 2</title>
+		
+		<?php wp_head(); ?>
+		
 	</head>
 	
 	<body>
 		
 		<header>
 			<div class="header">
-				<img class="header_img" src="./img/header.jpg"/>
+				<img class="header_img" src="<?php echo get_template_directory_uri(); ?>/img/header.jpg"/>
 			</div>
 			<div class="name">
-				<img class="name_img" src='./img/name.png' />
+				<img class="name_img" src='<?php echo get_template_directory_uri(); ?>/img/name.png' />
 			</div>
 		</header>
-		
-		<div class="layout">
-			<div class="content">Content</div>
-			<aside>aside</aside>
-		</div>
-		
-  		<footer></footer>
-  		
-	</body>
-</html>

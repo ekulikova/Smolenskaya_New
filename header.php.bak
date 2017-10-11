@@ -5,8 +5,10 @@
 		<!--[if lt IE 9]> 
  			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
 		<![endif]-->
-		<link href="./css/template.css" rel="stylesheet">
 		<title>Макет 2</title>
+		
+		<?php wp_head(); ?>
+		
 	</head>
 	
 	<body>
@@ -19,13 +21,3 @@
 				<img class="name_img" src='./img/name.png' />
 			</div>
 		</header>
-		
-		<div class="layout">
-			<div class="content">Content</div>
-			<aside>aside</aside>
-		</div>
-		
-  		<footer></footer>
-  		
-	</body>
-</html>

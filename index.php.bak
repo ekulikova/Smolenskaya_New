@@ -1,0 +1,8 @@
+<?php get_header(); ?>
+
+		<div class="layout">
+			<div class="content">Content</div>
+			<aside>aside</aside>
+		</div>
+
+<?php get_footer(); ?>
